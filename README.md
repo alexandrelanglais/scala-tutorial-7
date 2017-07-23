@@ -1,2 +1,2 @@
 # scala-tutorial-7
-Cnotrol abstraciton in Scala
+Control abstraction in Scala
