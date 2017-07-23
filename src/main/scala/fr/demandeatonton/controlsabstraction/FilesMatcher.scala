@@ -1,6 +1,6 @@
 package fr.demandeatonton.controlsabstraction
 
-object FileMatcher {
+object FilesMatcher {
   private def filesHere = (new java.io.File(".")).listFiles
 
   def filesMatching(matcher: (String) => Boolean) = {

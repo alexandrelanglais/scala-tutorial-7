@@ -1,6 +1,6 @@
 package fr.demandeatonton.controlsabstraction
 
-object FileMatcher {
+object FilesMatcherV1 {
   private def filesHere = (new java.io.File(".")).listFiles
 
   def filesEnding(query: String) =
